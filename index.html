@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="js-clock">
+   <h2>00:00</h2>
+  </div>
+  <div class="user">
+    <form class="js-form form"> 
+      <input required type="text">
+      <label class="labelName" for="name">
+        <span class="content-name">Name</span>
+      </label>
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+  </div>
+
+
+  <div class="tdl">
+    <form class="js-toDo">
+      <input required type="text">
+      <label class="toDoName" for="list">
+        <span class="toDoLists">To-do Lists</span>
+      </label>
+    </form>
+    <ul class="js-toDoList"></ul>
+  </div>
+
+  <span class="js-weather">
+  </span>
+
+  <script src="./greeting.js"></script>
+  <script src="./clock.js"></script>
+  <script src="./todo.js"></script>
+  <script src="./bg.js"></script>
+  <script src="./weather.js"></script>
+</body>
+</html>
